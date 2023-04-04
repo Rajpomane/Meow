@@ -17,7 +17,7 @@ from config import HNDLR, bot, call_py
 from Modules.helpers.queues import QUEUE, add_to_queue, get_queue
 from config import SUDO_USERS
 
-AMBILFOTO = ["https://telegra.ph/file/896bfc363cf082ae32592.jpg",]
+AMBILFOTO = ["https://te.legra.ph/file/f272a9daec063f74630f6.jpg",]
 
 IMAGE_THUMBNAIL = random.choice(AMBILFOTO)
 
@@ -116,9 +116,9 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/18d25616d9883400af112.png",
                     caption=f"""
-**▶ Now Meow userbot playing {pos}
-🏷 Song name: [{songname}]
-💡 Status: Playing
+**🚩 Now Meow userbot playing {pos}
+🚩 Song name: [{songname}]
+🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
 """,
                 )
@@ -134,11 +134,11 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/18d25616d9883400af112.png",
+                    photo="https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
                     caption=f"""
-**▶ Now Meow userbot playing
-🏷 Song name: [{songname}]
-💡 Status: Playing
+**🚩 Now Meow userbot playing
+🚩 Song name: [{songname}]
+🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
 """,
                 )
@@ -167,9 +167,9 @@ async def play(client, m: Message):
                         await m.reply_photo(
                             photo=f"{IMAGE_THUMBNAIL}",
                             caption=f"""
-**▶ Now Meow userbot playing {pos}
-🏷 Song name: [{songname}]
-💡 Status: Playing
+**🚩 Now Meow userbot playing {pos}
+🚩 Song name: [{songname}]
+🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
 """,
                         )
