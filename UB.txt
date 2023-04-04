@@ -1,5 +1,4 @@
-python-decouple
-git+https://github.com/pyrogram/pyrogram@master
+
 cryptg
 gitpython
 asyncio
@@ -43,7 +42,6 @@ google-search==1.1.1
 googlesearch-python== 1.0.1
 bs4
 pymediainfo
-git+https://github.com/Itz-fork/py-trans.git
 tracemoepy
 textblob
 
