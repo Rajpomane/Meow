@@ -116,7 +116,7 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/18d25616d9883400af112.png",
                     caption=f"""
-**🚩 Now Meow userbot playing {pos}
+**🚩 Now poison userbot playing {pos}
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
@@ -136,7 +136,7 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
                     caption=f"""
-**🚩 Now Meow userbot playing
+**🚩 Now poison userbot playing
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
@@ -188,9 +188,9 @@ async def play(client, m: Message):
                             await m.reply_photo(
                                 photo=f"{IMAGE_THUMBNAIL}",
                                 caption=f"""
-**▶ Now Meow userbot playing
-🏷️ Song name: [{songname}]
-💡 Status: Playing
+**🚩 Now poison userbot playing
+🚩 Song name: [{songname}]
+🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
 """,
                             )
@@ -233,12 +233,12 @@ async def videoplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/18d25616d9883400af112.png",
+                    photo="https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
                     caption=f"""
-**▶ Now Meow userbot playing video {pos}
-🏷️ Song name: [{songname}]
-💡 Status: Playing
-🎧 Request by: {m.from_user.mention}**
+**🚩 Now poison  playing video {pos}
+🚩 Song name: [{songname}]
+🚩 Status: Playing
+🚩 Request by: {m.from_user.mention}**
 """,
                 )
             else:
@@ -257,12 +257,12 @@ async def videoplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/18d25616d9883400af112.png",
+                    photo="https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
                     caption=f"""
-**▶ Now Meow userbot playing Video
-🏷️ Song name: [{songname}]
-💡 Status: Playing
-🎧 Request by: {m.from_user.mention}**
+**🚩 Now Meow userbot playing Video
+🚩 Song name: [{songname}]
+🚩 Status: Playing
+🚩 Request by: {m.from_user.mention}**
 """,
                 )
 
@@ -296,10 +296,10 @@ async def videoplay(client, m: Message):
                         await m.reply_photo(
                             photo=f"{IMAGE_THUMBNAIL}",
                             caption=f"""
-**▶ Now Meow userbot Playing video {pos}
-🏷️ Song name : [{songname}]
-💡 Status: Playing
-🎧 Request by: {m.from_user.mention}**
+**🚩 Now poison  Playing video {pos}
+🚩 Song name : [{songname}]
+🚩 Status: Playing
+🚩 Request by: {m.from_user.mention}**
 """,
                         )
                     else:
@@ -315,10 +315,10 @@ async def videoplay(client, m: Message):
                             await m.reply_photo(
                                 photo=f"{IMAGE_THUMBNAIL}",
                                 caption=f"""
-**▶ Now Meow userbot playing video
-🏷️ Song name: [{songname}]
-💡 Status: Playing
-🎧 Request by: {m.from_user.mention}**
+**🚩 Now poison userbot playing video
+🚩 Song name: [{songname}]
+🚩 Status: Playing
+🚩 Request by: {m.from_user.mention}**
 """,
                             )
                         except Exception as ep:
@@ -362,12 +362,12 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "Audio", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/18d25616d9883400af112.png",
+                        photo="https://te.legra.ph/file/f272a9daec063f74630f6.jpg",
                         caption=f"""
-**▶ Now Meow userbot playing {chat}
-🏷️ Song name: [{songname}]
-💡 Status: Playing
-🎧 Request by: {m.from_user.mention}**
+**🚩 Now poison playing {chat}
+🚩 Song name: [{songname}]
+🚩 Status: Playing
+🚩 Request by: {m.from_user.mention}**
 """,
                     )
             await hmm.delete()
