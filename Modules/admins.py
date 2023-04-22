@@ -16,7 +16,7 @@ async def skip(client, m: Message):
         if op == 0:
             await m.reply("**❌ Try again!**")
         elif op == 1:
-            await m.reply("jai shree ram har har Mahadev**")
+            await m.reply("🚩jai shree ram har har Mahadev🚩**")
         else:
             await m.reply(
                 f"**⏭ song name** \n**🎵 Now** - [{op[0]}]({op[1]}) | `{op[2]}`",
