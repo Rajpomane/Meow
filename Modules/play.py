@@ -17,7 +17,7 @@ from config import HNDLR, bot, call_py
 from Modules.helpers.queues import QUEUE, add_to_queue, get_queue
 from config import SUDO_USERS
 
-AMBILFOTO = ["https://telegra.ph/file/6db1c486e1266eb1991f1.jpg",]
+AMBILFOTO = ["https://telegra.ph/file/ee970981c524a57527c29.mp4",]
 
 IMAGE_THUMBNAIL = random.choice(AMBILFOTO)
 
@@ -116,7 +116,7 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/6db1c486e1266eb1991f1.jpg",
                     caption=f"""
-**🚩 Now poison userbot playing {pos}
+**🚩 poison fire on {pos}
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
@@ -133,10 +133,10 @@ async def play(client, m: Message):
                 add_to_queue(chat_id, songname, dl, link, "Audio", 0)
                 await huehue.delete()
                 # await m.reply_to_message.delete()
-                await m.reply_photo(
-                    photo="https://telegra.ph/file/6db1c486e1266eb1991f1.jpg",
+                await m.reply_video(
+                    video="https://telegra.ph/file/ee970981c524a57527c29.mp4",
                     caption=f"""
-**🚩 Now poison userbot playing
+**🚩 poison fire on
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
@@ -164,10 +164,10 @@ async def play(client, m: Message):
                         pos = add_to_queue(chat_id, songname, ytlink, url, "Audio", 0)
                         await huehue.delete()
                         # await m.reply_to_message.delete()
-                        await m.reply_photo(
-                            photo=f"{IMAGE_THUMBNAIL}",
+                        await m.reply_video(
+                            video=f"{VIDEO_THUMBNAIL}",
                             caption=f"""
-**🚩 Now Meow userbot playing {pos}
+**🚩 poison fire on {pos}
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
@@ -186,9 +186,9 @@ async def play(client, m: Message):
                             await huehue.delete()
                             # await m.reply_to_message.delete()
                             await m.reply_photo(
-                                photo=f"{IMAGE_THUMBNAIL}",
+                                video=f"{VIDEO_THUMBNAIL}",
                                 caption=f"""
-**🚩 Now poison userbot playing
+**🚩 poison fire on
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🎧 Request by: {m.from_user.mention}**
@@ -233,9 +233,9 @@ async def videoplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/6db1c486e1266eb1991f1.jpg",
+                    video="https://telegra.ph/file/ee970981c524a57527c29.mp4",
                     caption=f"""
-**🚩 Now poison  playing video {pos}
+**🚩 poison fire on {pos}
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🚩 Request by: {m.from_user.mention}**
@@ -259,7 +259,7 @@ async def videoplay(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/6db1c486e1266eb1991f1.jpg",
                     caption=f"""
-**🚩 Now Meow userbot playing Video
+**🚩 poison fire on
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🚩 Request by: {m.from_user.mention}**
@@ -296,7 +296,7 @@ async def videoplay(client, m: Message):
                         await m.reply_photo(
                             photo=f"{IMAGE_THUMBNAIL}",
                             caption=f"""
-**🚩 Now poison  Playing video {pos}
+**🚩 poison fire on {pos}
 🚩 Song name : [{songname}]
 🚩 Status: Playing
 🚩 Request by: {m.from_user.mention}**
@@ -315,7 +315,7 @@ async def videoplay(client, m: Message):
                             await m.reply_photo(
                                 photo=f"{IMAGE_THUMBNAIL}",
                                 caption=f"""
-**🚩 Now poison userbot playing video
+**🚩 poison fire on
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🚩 Request by: {m.from_user.mention}**
@@ -364,7 +364,7 @@ async def playfrom(client, m: Message):
                     await m.reply_photo(
                         photo="https://telegra.ph/file/6db1c486e1266eb1991f1.jpg",
                         caption=f"""
-**🚩 Now poison playing {chat}
+**🚩 poison fire on {chat}
 🚩 Song name: [{songname}]
 🚩 Status: Playing
 🚩 Request by: {m.from_user.mention}**
