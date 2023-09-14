@@ -133,7 +133,7 @@ async def play(client, m: Message):
                 add_to_queue(chat_id, songname, dl, link, "Audio", 0)
                 await huehue.delete()
                 # await m.reply_to_message.delete()
-                await m.reply_video(
+                await m.reply_photo(
                     photo="https://telegra.ph/file/dbbcd0749465a4fa42494.jpg",
                     caption=f"""
 **🚩 poison fire on
