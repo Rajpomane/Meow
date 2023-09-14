@@ -152,7 +152,7 @@ async def play(client, m: Message):
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
-                await huehue.edit("`Tidak Menemukan Apapun untuk Kueri yang Diberikan`")
+                await huehue.edit("`🔥🖤POISON TOXIC DO DIL EK JAAN 🔥🖤`")
             else:
                 songname = search[0]
                 url = search[1]
@@ -165,7 +165,7 @@ async def play(client, m: Message):
                         await huehue.delete()
                         # await m.reply_to_message.delete()
                         await m.reply_photo(
-                            photo=f"{PHOTO_THUMBNAIL}",
+                            photo=f"{IMAGE_THUMBNAIL}",
                             caption=f"""
 **🚩 poison fire on {pos}
 🚩 Song name: [{songname}]
@@ -186,7 +186,7 @@ async def play(client, m: Message):
                             await huehue.delete()
                             # await m.reply_to_message.delete()
                             await m.reply_photo(
-                                photo=f"{PHOTO_THUMBNAIL}",
+                                photo=f"{IMAGE_THUMBNAIL}",
                                 caption=f"""
 **🚩 poison fire on
 🚩 Song name: [{songname}]
@@ -207,7 +207,7 @@ async def videoplay(client, m: Message):
     if replied:
         if replied.video or replied.document:
             await m.delete()
-            huehue = await replied.reply("**✧ searching Video....**")
+            huehue = await replied.reply("**✧ POISON BOT FIRE ON TOXIC POISON DO DIL EK JAAN🔥**")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
