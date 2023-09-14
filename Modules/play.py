@@ -17,7 +17,7 @@ from config import HNDLR, bot, call_py
 from Modules.helpers.queues import QUEUE, add_to_queue, get_queue
 from config import SUDO_USERS
 
-AMBILFOTO = ["https://telegra.ph/file/ee970981c524a57527c29.mp4",]
+AMBILFOTO = ["https://telegra.ph/file/dbbcd0749465a4fa42494.jpg",]
 
 IMAGE_THUMBNAIL = random.choice(AMBILFOTO)
 
@@ -114,7 +114,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/6db1c486e1266eb1991f1.jpg",
+                    photo="https://telegra.ph/file/dbbcd0749465a4fa42494.jpg",
                     caption=f"""
 **🚩 poison fire on {pos}
 🚩 Song name: [{songname}]
@@ -134,7 +134,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_video(
-                    video="https://telegra.ph/file/ee970981c524a57527c29.mp4",
+                    photo="https://telegra.ph/file/dbbcd0749465a4fa42494.jpg",
                     caption=f"""
 **🚩 poison fire on
 🚩 Song name: [{songname}]
@@ -165,7 +165,7 @@ async def play(client, m: Message):
                         await huehue.delete()
                         # await m.reply_to_message.delete()
                         await m.reply_video(
-                            video=f"{VIDEO_THUMBNAIL}",
+                            photo=f"{PHOTO_THUMBNAIL}",
                             caption=f"""
 **🚩 poison fire on {pos}
 🚩 Song name: [{songname}]
@@ -186,7 +186,7 @@ async def play(client, m: Message):
                             await huehue.delete()
                             # await m.reply_to_message.delete()
                             await m.reply_photo(
-                                video=f"{VIDEO_THUMBNAIL}",
+                                photo=f"{PHOTO_THUMBNAIL}",
                                 caption=f"""
 **🚩 poison fire on
 🚩 Song name: [{songname}]
@@ -233,7 +233,7 @@ async def videoplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    video="https://telegra.ph/file/ee970981c524a57527c29.mp4",
+                    photo="https://telegra.ph/file/dbbcd0749465a4fa42494.jpg",
                     caption=f"""
 **🚩 poison fire on {pos}
 🚩 Song name: [{songname}]
