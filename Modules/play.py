@@ -164,7 +164,7 @@ async def play(client, m: Message):
                         pos = add_to_queue(chat_id, songname, ytlink, url, "Audio", 0)
                         await huehue.delete()
                         # await m.reply_to_message.delete()
-                        await m.reply_video(
+                        await m.reply_photo(
                             photo=f"{PHOTO_THUMBNAIL}",
                             caption=f"""
 **🚩 poison fire on {pos}
